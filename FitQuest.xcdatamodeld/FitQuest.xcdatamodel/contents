@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Badge" representedClassName="Badge" syncable="YES">
+        <attribute name="badgeDescription" optional="YES" attributeType="String"/>
+        <attribute name="earned" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RoutineWorkout" representedClassName="RoutineWorkout" syncable="YES">
+        <attribute name="dayOfWeekR" optional="YES" attributeType="String"/>
+        <attribute name="workoutDescriptionR" optional="YES" attributeType="String"/>
+        <attribute name="workoutTypeR" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Streak" representedClassName="Streak" syncable="YES">
+        <attribute name="currentStreak" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="WorkoutEntity" representedClassName="WorkoutEntity" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dayOfWeek" optional="YES" attributeType="String"/>
+        <attribute name="workoutDescription" optional="YES" attributeType="String"/>
+        <attribute name="workoutType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
